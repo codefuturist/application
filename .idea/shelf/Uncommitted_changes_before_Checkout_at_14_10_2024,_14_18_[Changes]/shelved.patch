@@ -1,0 +1,38 @@
+Index: index.yaml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.BaseRevisionTextPatchEP
+<+>apiVersion: v1\nentries:\n  application:\n  - apiVersion: v2\n    created: \"2024-10-14T14:17:01.783262+02:00\"\n    description: Generic helm chart for all kind of applications\n    digest: 6c46d1ae271dca65fc8ba0997f91b272d2cd0a4a04d8d10b8ad7583124a15c05\n    home: https://github.com/codefuturist/application\n    icon: https://github.com/stakater/ForecastleIcons/blob/master/stakater.png\n    keywords:\n    - java\n    - node\n    - dotnet\n    - kubernetes\n    - stakater\n    - application\n    maintainers:\n    - email: hello@allcloud.trade\n      name: codefuturist\n    name: application\n    type: application\n    urls:\n    - https://codefuturist.github.io/application/application-5.1.0.tgz\n    version: 5.1.0\n  homarr:\n  - apiVersion: v2\n    created: \"2024-10-14T14:17:01.784722+02:00\"\n    description: Generic helm chart for all kind of applications\n    digest: 62363f3618893978aca7bd8444a3b003a7e6f1704b6bd5c73db5d6a26626caa0\n    home: https://github.com/codefuturist/application\n    icon: https://github.com/stakater/ForecastleIcons/blob/master/stakater.png\n    keywords:\n    - java\n    - node\n    - dotnet\n    - kubernetes\n    - stakater\n    - application\n    maintainers:\n    - email: hello@allcloud.trade\n      name: codefuturist\n    name: homarr\n    type: application\n    urls:\n    - https://codefuturist.github.io/application/homarr-5.1.0.tgz\n    version: 5.1.0\ngenerated: \"2024-10-14T14:17:01.78163+02:00\"\n
+===================================================================
+diff --git a/index.yaml b/index.yaml
+--- a/index.yaml	(revision 16bb32d0b279862b812db876a45ad2f0dba34394)
++++ b/index.yaml	(date 1728908270617)
+@@ -2,9 +2,9 @@
+ entries:
+   application:
+   - apiVersion: v2
+-    created: "2024-10-14T14:17:01.783262+02:00"
++    created: "2024-10-14T14:17:50.615982+02:00"
+     description: Generic helm chart for all kind of applications
+-    digest: 6c46d1ae271dca65fc8ba0997f91b272d2cd0a4a04d8d10b8ad7583124a15c05
++    digest: 31419ab2457e2159a4a585736c3badf6fc6565db0db6f563526803f31ed2e76f
+     home: https://github.com/codefuturist/application
+     icon: https://github.com/stakater/ForecastleIcons/blob/master/stakater.png
+     keywords:
+@@ -24,9 +24,9 @@
+     version: 5.1.0
+   homarr:
+   - apiVersion: v2
+-    created: "2024-10-14T14:17:01.784722+02:00"
++    created: "2024-10-14T14:17:50.617536+02:00"
+     description: Generic helm chart for all kind of applications
+-    digest: 62363f3618893978aca7bd8444a3b003a7e6f1704b6bd5c73db5d6a26626caa0
++    digest: b40d5248348e9a79caeb25325d526eafd299153cc86789f22d45f3d65536c891
+     home: https://github.com/codefuturist/application
+     icon: https://github.com/stakater/ForecastleIcons/blob/master/stakater.png
+     keywords:
+@@ -44,4 +44,4 @@
+     urls:
+     - https://codefuturist.github.io/application/homarr-5.1.0.tgz
+     version: 5.1.0
+-generated: "2024-10-14T14:17:01.78163+02:00"
++generated: "2024-10-14T14:17:50.614247+02:00"
