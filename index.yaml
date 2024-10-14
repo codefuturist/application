@@ -2,10 +2,10 @@ apiVersion: v1
 entries:
   application:
   - apiVersion: v2
-    created: "2024-10-14T13:23:22.582775+02:00"
+    created: "2024-10-14T14:17:01.783262+02:00"
     description: Generic helm chart for all kind of applications
-    digest: 5034293653bff43e8bf657a0c7a7a5a7fd85a470de948de51ace14eea8807372
-    home: https://github.com/stakater/application
+    digest: 6c46d1ae271dca65fc8ba0997f91b272d2cd0a4a04d8d10b8ad7583124a15c05
+    home: https://github.com/codefuturist/application
     icon: https://github.com/stakater/ForecastleIcons/blob/master/stakater.png
     keywords:
     - java
@@ -15,11 +15,33 @@ entries:
     - stakater
     - application
     maintainers:
-    - email: hello@stakater.com
-      name: Stakater
+    - email: hello@allcloud.trade
+      name: codefuturist
     name: application
     type: application
     urls:
     - https://codefuturist.github.io/application/application-5.1.0.tgz
     version: 5.1.0
-generated: "2024-10-14T13:23:22.581122+02:00"
+  homarr:
+  - apiVersion: v2
+    created: "2024-10-14T14:17:01.784722+02:00"
+    description: Generic helm chart for all kind of applications
+    digest: 62363f3618893978aca7bd8444a3b003a7e6f1704b6bd5c73db5d6a26626caa0
+    home: https://github.com/codefuturist/application
+    icon: https://github.com/stakater/ForecastleIcons/blob/master/stakater.png
+    keywords:
+    - java
+    - node
+    - dotnet
+    - kubernetes
+    - stakater
+    - application
+    maintainers:
+    - email: hello@allcloud.trade
+      name: codefuturist
+    name: homarr
+    type: application
+    urls:
+    - https://codefuturist.github.io/application/homarr-5.1.0.tgz
+    version: 5.1.0
+generated: "2024-10-14T14:17:01.78163+02:00"
